@@ -63,3 +63,14 @@ console.log(x); // null
 
 
 */
+
+/*
+What is the DOM in JavaScript?
+The Document Object Model (DOM) is a programming interface for HTML and XML documents. in easy language by the help of dom javascript access the values and properties of html and xml and also can manupilate.
+By understanding the DOM, developers can create dynamic, interactive web pages that respond to user input and provide a rich user experience.
+
+
+const myElement = document.getElementById('myElement');
+myElement.innerHTML = 'New text content!';
+
+*/
