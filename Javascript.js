@@ -4,9 +4,10 @@
 
 
 /* 2.
+--------------------------------------------------------------------------------------------------------------------
  What are the data types in JavaScript?
  JavaScript supports multiple data types, which are devided into primitive and non-primitive types. The primitive data types include:Number,String,Boolean,Null,Undefined,Symbol.
-
+  The non-primitive data types include:Array,Object.
 1. Number
 The number type in JavaScript contains both integer and floating-point numbers. Besides regular numbers, there are also some special numbers: Infinity, -Infinity, and NaN. Infinity represents the mathematical infinity, NaN denotes a computational error.
 
@@ -27,7 +28,7 @@ let phrase = can embed ${someVariable};
 The boolean type has only two values: true and false. This data type is used to store yes/no values: true means “yes, correct”, and false means “no, incorrect”.
 
 let isCoding = true; // yes
-let isOld = false;      // no
+let isOld = false;    // no
 
 4. Null
 A special value that represent the absence of any object value.
@@ -47,10 +48,12 @@ The non-primitive types include Object, Array, and Function.
 
 Note that BigInt is also a primitive type in JavaScript, which is used to represent big integers more accurately.
 
+--------------------------------------------------------------------------------------------------------------------
  */
 
 
 /*3.
+--------------------------------------------------------------------------------------------------------------------
 What is the difference between null and undefined?
 Undefined
 undefined is a type that represents an uninitialized or non-existent variable. It is the default value of a variable that has not been assigned a value.
@@ -61,10 +64,11 @@ Null
 null, on the other hand, is a value that represents the absence of any object value. It is a deliberate assignment of "no value" to a variable.
 let x = null;
 console.log(x); // null
-
+--------------------------------------------------------------------------------------------------------------------
 */
 
 /*4.
+--------------------------------------------------------------------------------------------------------------------
 What is the DOM in JavaScript?
 The Document Object Model (DOM) is a programming interface for HTML and XML documents. in easy language by the help of dom javascript access the values and properties of html and xml and also can manupilate.
 By understanding the DOM, developers can create dynamic, interactive web pages that respond to user input and provide a rich user experience.
@@ -72,12 +76,12 @@ By understanding the DOM, developers can create dynamic, interactive web pages t
 
 const myElement = document.getElementById('myElement');
 myElement.innerHTML = 'New text content!';
-
+--------------------------------------------------------------------------------------------------------------------
 */
 
 /* 5.
+--------------------------------------------------------------------------------------------------------------------
 What is an event in JavaScript?
-
 Events in JavaScript
 
 In simple terms, an event in JavaScript is like a notification that something has happened on a web page. It's like a message that says, "Hey, something just happened! Do something about it!"
@@ -119,7 +123,7 @@ scroll: Triggered when a page is scrolled.
 Conclusion
 
 In summary, events in JavaScript are like notifications that something has happened on a web page. By using event handlers, you can write code that responds to these events and creates interactive web pages.
-
+--------------------------------------------------------------------------------------------------------------------
 */
 
 
@@ -170,5 +174,68 @@ You want to keep code concise: Anonymous functions can make your code more conci
 You need to create a closure: Anonymous functions can create a closure, which is a function that has access to its own scope and the outer scope.
 
 --------------------------------------------------------------------------------------------------------------------
-
 */
+
+
+
+
+/* 7.
+  ------------------------------------------------------------------------------------------------------------------
+  What is the difference between == and === in JavaScript?
+  In JavaScript, there are two types of equality operators: == (loose equality) and === (strict equality). Understanding the difference between them is crucial for writing accurate and reliable code.
+
+  Loose Equality (==)
+
+  The == operator checks if the values of two variables are equal, but it doesn't care about the data type. It's like comparing apples and oranges - if they look similar, it's good enough!
+
+  Strict Equality (===)
+
+  The === operator checks if the values and data types of two variables are identical. It's like comparing apples to apples - they must be exactly the same!
+  ------------------------------------------------------------------------------------------------------------------
+*/
+
+/* 8.
+-------------------------------------------------------------------------------------------------------------------- What is hoisting in JavaScript?
+  Hoisting is a mechanism in JavaScript where variables and functions are moved to the top of their scope, regardless of where they're actually declared.
+
+  Variables Hoisting-
+
+  When you declare a variable using var, JavaScript "hoists" it to the top of its scope, but only the declaration, not the assignment. This means that the variable is moved to the top, but its value is still undefined until the assignment is reached.
+  console.log(x); // Output: undefined
+  var x = 10;
+
+
+  Functions Hoisting-
+
+  Functions, on the other hand, are hoisted entirely, including their declarations and definitions. This means that you can call a function before it's actually declared.
+
+  Here's an example:
+  hello(); // Output: "Hello, World!"
+
+  function hello() {
+    console.log("Hello, World!");
+  }
+--------------------------------------------------------------------------------------------------------------------
+  */
+
+/* 9.
+--------------------------------------------------------------------------------------------------------------------What are closures in JavaScript?
+A closure is a special type of function in JavaScript that has access to its own scope and the scope of its parent functions.
+
+here is an example of it.
+function outer() {
+  let secret = "I'm a secret!"; // Parent scope variable
+
+  function inner() { // Closure function
+    console.log(secret); // Access parent scope variable
+  }
+
+  return inner;
+}
+
+const myClosure = outer();
+myClosure(); // Output: I'm a secret!
+--------------------------------------------------------------------------------------------------------------------
+*/
+
+     
