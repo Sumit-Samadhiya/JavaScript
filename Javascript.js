@@ -61,7 +61,6 @@ null, on the other hand, is a value that represents the absence of any object va
 let x = null;
 console.log(x); // null
 
-
 */
 
 /*
