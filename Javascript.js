@@ -122,3 +122,54 @@ In summary, events in JavaScript are like notifications that something has happe
 
 
 */
+
+
+/* 6.
+---------------------------------------------------------
+What is an anonymous function in JavaScript?
+
+Anonymous Functions in JavaScript
+
+In simple terms, an anonymous function in JavaScript is a function that doesn't have a name. Yeah, you read that right - no name!
+
+What's the purpose of an anonymous function?
+
+Anonymous functions are used when you need to create a function that's only used once or temporarily. They're like a one-time-use function that's not meant to be reused.
+
+How do you create an anonymous function?
+
+You create an anonymous function by defining a function without giving it a name. Here's an example:
+function() {
+  console.log('Hello, world!');
+}
+
+How do you use an anonymous function?
+
+Anonymous functions are often used as:
+
+Event handlers: You can pass an anonymous function as an event handler to respond to an event, like a button click.
+Callback functions: You can pass an anonymous function as a callback to a function that needs to execute some code after completing a task.
+Immediately Invoked Function Expressions (IIFE): You can use an anonymous function as an IIFE, which is a function that runs immediately after it's defined.
+
+Example code
+
+Here's an example of using an anonymous function as an event handler:
+const button = document.getElementById('myButton');
+
+button.addEventListener('click', function() {
+  console.log('Button clicked!');
+});
+
+In this example, the anonymous function is defined inline and passed as an event handler to the addEventListener method.
+
+Why use anonymous functions?
+
+Anonymous functions are useful when:
+
+You need a one-time-use function: You don't need to reuse the function, so there's no need to give it a name.
+You want to keep code concise: Anonymous functions can make your code more concise and easier to read.
+You need to create a closure: Anonymous functions can create a closure, which is a function that has access to its own scope and the outer scope.
+
+--------------------------------------------------------
+
+*/
