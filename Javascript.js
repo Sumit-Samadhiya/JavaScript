@@ -1,8 +1,9 @@
+1.
 //What is JavaScript?
 //JavaScript is a high-level, dynamic, and interpreted programming language that is primarily used for client-side.
 
 
-/* 
+/* 2.
  What are the data types in JavaScript?
  JavaScript supports multiple data types, which are devided into primitive and non-primitive types. The primitive data types include:Number,String,Boolean,Null,Undefined,Symbol.
 
@@ -49,7 +50,7 @@ Note that BigInt is also a primitive type in JavaScript, which is used to repres
  */
 
 
-/*
+/*3.
 What is the difference between null and undefined?
 Undefined
 undefined is a type that represents an uninitialized or non-existent variable. It is the default value of a variable that has not been assigned a value.
@@ -63,7 +64,7 @@ console.log(x); // null
 
 */
 
-/*
+/*4.
 What is the DOM in JavaScript?
 The Document Object Model (DOM) is a programming interface for HTML and XML documents. in easy language by the help of dom javascript access the values and properties of html and xml and also can manupilate.
 By understanding the DOM, developers can create dynamic, interactive web pages that respond to user input and provide a rich user experience.
@@ -73,3 +74,4 @@ const myElement = document.getElementById('myElement');
 myElement.innerHTML = 'New text content!';
 
 */
+
