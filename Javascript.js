@@ -75,3 +75,50 @@ myElement.innerHTML = 'New text content!';
 
 */
 
+/* 5.
+What is an event in JavaScript?
+
+Events in JavaScript
+
+In simple terms, an event in JavaScript is like a notification that something has happened on a web page. It's like a message that says, "Hey, something just happened! Do something about it!"
+
+What triggers an event?
+
+Events are triggered by user interactions, such as:
+
+Clicking a button: When you click a button, an event is triggered.
+Typing in a form: When you type something in a form field, an event is triggered.
+Hovering over an image: When you move your mouse over an image, an event is triggered.
+Loading a page: When a web page finishes loading, an event is triggered.
+What happens when an event is triggered?
+
+When an event is triggered, JavaScript code can be executed in response to that event. This code is called an event handler or event listener.
+
+Think of it like a recipe:
+
+Event: Something happens on the web page (e.g., a button is clicked).
+Event handler: JavaScript code is executed in response to the event (e.g., a message is displayed).
+Example code
+
+Here's an example of an event handler that displays a message when a button is clicked:
+
+const button = document.getElementById('myButton');
+button.addEventListener('click', function() {
+  alert('Button clicked!');
+});
+
+Common events
+
+Here are some common events in JavaScript:
+
+click: Triggered when an element is clicked.
+hover: Triggered when an element is hovered over.
+submit: Triggered when a form is submitted.
+load: Triggered when a page finishes loading.
+scroll: Triggered when a page is scrolled.
+Conclusion
+
+In summary, events in JavaScript are like notifications that something has happened on a web page. By using event handlers, you can write code that responds to these events and creates interactive web pages.
+
+
+*/
