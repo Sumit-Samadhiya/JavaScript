@@ -1,12 +1,10 @@
-/*
-What is JavaScript? 
-JavaScript is a high-level, dynamic, and interpreted programming language that is primarily used for client-side scripting.
+//What is JavaScript?
+//JavaScript is a high-level, dynamic, and interpreted programming language that is primarily used for client-side.
 
-*/
 
 /* 
  What are the data types in JavaScript?
- JavaScript supports multiple data types, which are broadly categorized into primitive and non-primitive types. The primitive data types include:
+ JavaScript supports multiple data types, which are devided into primitive and non-primitive types. The primitive data types include:Number,String,Boolean,Null,Undefined,Symbol.
 
 1. Number
 The number type in JavaScript contains both integer and floating-point numbers. Besides regular numbers, there are also some special numbers: Infinity, -Infinity, and NaN. Infinity represents the mathematical infinity, NaN denotes a computational error.
@@ -31,7 +29,7 @@ let isCoding = true; // yes
 let isOld = false;      // no
 
 4. Null
-The special null value does not belong to any of the default data types. It forms a separate type of its own, which contains only the null value. null basically defines a special value that represents ‘nothing’, ’empty’, or ‘value unknown’.
+A special value that represent the absence of any object value.
 
 let age = null;
 
@@ -42,12 +40,10 @@ let x;
 console.log(x);  // undefined
 
 6. Symbol
-Symbols are new primitive built-in object types introduced as part of ES6.
+In JavaScript, a Symbol is a primitive data type introduced in ECMAScript 2015 (ES6). It is a unique and immutable value that can be used as a property key in an object.
 
 The non-primitive types include Object, Array, and Function.
 
 Note that BigInt is also a primitive type in JavaScript, which is used to represent big integers more accurately.
 
  */
-
-
