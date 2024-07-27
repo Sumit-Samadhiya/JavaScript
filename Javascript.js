@@ -120,12 +120,11 @@ Conclusion
 
 In summary, events in JavaScript are like notifications that something has happened on a web page. By using event handlers, you can write code that responds to these events and creates interactive web pages.
 
-
 */
 
 
 /* 6.
----------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------
 What is an anonymous function in JavaScript?
 
 Anonymous Functions in JavaScript
@@ -170,6 +169,6 @@ You need a one-time-use function: You don't need to reuse the function, so there
 You want to keep code concise: Anonymous functions can make your code more concise and easier to read.
 You need to create a closure: Anonymous functions can create a closure, which is a function that has access to its own scope and the outer scope.
 
---------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------
 
 */
